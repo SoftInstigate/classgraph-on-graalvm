@@ -70,6 +70,7 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 ### vscode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
