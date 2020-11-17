@@ -61,7 +61,7 @@ public class App {
 
 Since the class `com.softinstigate.App` is initialized at build time by `native-image`, the scanning occurs.
 
-The classes funded are saved to a static field and used in the class. The example code looks for classes and methods with given annotations and them invoke the methods using reflection.
+The found classes are saved to a static field and used in the class. The example code looks for classes and methods with given annotations and them invoke the methods using reflection.
 
 Since reflection is used, native-image must run properly configured. The following section provides instructions on how to automatically generate the configuration.
 
